@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GO HIKE</title>
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda" rel="stylesheet">
+</head>
+<body>	
+	<header role="banner" class="bg">
+		<nav class="header">
+			<a href="index.html">HOME</a>
+			<a href="note.html">NOTE</a>
+			<a href="#" onclick="self.close();">EXIT</a>
+		</nav>
+		<h1>GO HIKE</h1>
+		<p class="quote">&ldquo;The journey of a thousand miles begins with a single step.&rdquo;</p>
+		<p>&hyphen; Lao Tzu</p>        
+		<form action="#" class="search-form">
+			<label for="city-name"></label>
+			<input type="text" name="city" placeholder="Enter a city" class="input_text" aria-label="input city name" autofocus required>
+			<input type="submit" value="Explore" class="submit"></button>
+		</form>
+		<h2>BEST PLACES TO GO HIKING IN MALAYSIA</h2>
+		<section class="container">
+			<div class="box">
+				<h2>Broga Hill</h2>
+				<img class="image" src="https://i2.wp.com/www.lokalocal.com/blog/wp-content/uploads/2017/07/Broga-Hill.png?resize=768%2C768&ssl=1">
+				<h3>Semenyih</h3>
+			</div>
+			<div class="box">
+				<h2>Gasing Hill</h2>
+				<img class="image" src="https://i0.wp.com/www.lokalocal.com/blog/wp-content/uploads/2017/07/Gasing-Hill.png?resize=768%2C768&ssl=1">
+				<h3>Petaling Jaya</h3>
+			</div>
+			<div class="box">
+				<h2>Kiara Park</h2>
+				<img class="image" src="https://i2.wp.com/www.lokalocal.com/blog/wp-content/uploads/2017/07/Kiara-Park.png?resize=768%2C768&ssl=1">
+				<h3>Kuala Lumpur</h3>
+			</div>
+		</section>
+	</header>
+	<div class="weather" id="weather">
+    	<div class="city-name">
+            <h2 class="name" id="name"></h2>
+			<p class="para"></p>
+            <p class="desc"></p>
+        </div>
+        <div class="row">
+        	<div class="city-temp column left">
+            	<p class="mintemp"></p>
+            	<p class="temp"></p>
+            	<p class="maxtemp"></p>
+        	</div>
+        	<div class="weather-desc column right">
+            	<p class="humidity"></p>
+            	<p class="speed"></p>
+        	</div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

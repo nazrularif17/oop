@@ -1,0 +1,88 @@
+body, html {
+    /* The image used */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/486/302/369/women-model-ponytail-mountains-wallpaper-preview.jpg");
+    /* Full height */
+    height: 100%;
+    margin: 0;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Header css */
+  .header  {
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 1rem 10px;
+    background-color:  rgb(205,127,50);
+    opacity: 100%;
+  
+  }
+  .header a {
+    padding: 0rem .5rem;
+    color: black;
+    background-color: rgb(250,214,165);
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+  .header a:hover {
+    background-color: rgb(139,69,19)  ;
+    border-radius: 0.5rem;
+    color: white;
+  }
+  /*content*/
+  .mainWrapper{
+    z-index: -1;
+    margin: 25%;
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(250,214,165, 0.5);
+    border-radius: 5rem; 
+  }
+  .title {
+    z-index: 1;
+    Font-Family: 'Monda', Sans-Serif;
+    margin-top: 10px;
+    top: 0;
+  }
+  .title h1{
+    Font-Size: 36px;
+    padding-top: 30px;
+    margin: 20px;
+    color: rgb(205,127,50);  
+  }
+  .title p {
+    Font-Size: 20px;
+    color: #3c291d;
+    margin-top: 10px;
+  }
+  .form-group {
+    margin: 30px;
+    font-family: 'Monda', sans-serif;
+    display: grid;
+  }
+  #fileName {
+    border-radius: .5rem;
+    width: 50%;
+    height: 30px;
+    justify-content: center;
+    margin-left: 25%;
+  }
+  #fileContents {
+    border-radius: .5rem;
+    width: 70%;
+    height: 230px;
+    margin-left: 15%;
+  }
+  button{
+    font-family: 'Monda', sans-serif;
+    background-color: rgb(205,127,50);
+    border-radius: .5rem;
+    text-align: center;
+    height: 27px;
+    border: 0;
+    width: 70px;
+    margin-top: 10px;
+  }

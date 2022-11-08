@@ -1,0 +1,192 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+main{
+  margin: 0;
+}
+/**** Header styling ****/
+.bg{
+background: 
+     linear-gradient(
+         rgba(255,255,255,0.1),
+         rgba(0,0,0,0.5)
+     ), url("https://images.pexels.com/photos/746386/pexels-photo-746386.jpeg?cs=srgb&dl=pexels-s-migaj-746386.jpg&fm=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+/* Header css */
+.header  {
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 1rem 10px;
+  background-color:  rgb(205,127,50);
+  opacity: 100%;
+}
+.header a {
+  padding: 0rem .5rem;
+  color: black;
+  background-color: rgb(250,214,165);
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+.header a:hover {
+  background-color: rgb(139,69,19)  ;
+  border-radius: 0.5rem;
+  color: white;
+}
+h1, p{
+  text-align: center;
+}	
+h1{
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  Font-Size: 45px;
+  color: #3c291d;
+  padding-top: 60px;
+}
+p{
+  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: 20px;
+  color:rgb(139,69,19);
+}
+.quote{
+  padding-top: 30px;
+}
+
+h2{
+  Font-Family: 'Monda', Sans-Serif;
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+h4{
+  text-align: center;
+  Font-Family: 'Monda', Sans-Serif;
+  color: #3c291d;
+  padding-top: 15px;
+}
+/**** Input form style ****/
+.search-form{
+  padding: 20px;
+}
+input, button {
+  Font-Family: 'Monda', Sans-Serif;
+  color: white;
+  font-size: 20px;
+  display:block;
+  margin: 0 auto; 
+  border: 0;
+  width: 220px;
+  }
+input{
+  margin-top: 20px;
+  padding: 5px;
+  height: 30px; 
+  color: #3c291d;
+}
+.submit{
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  width: 230px;
+  height: 33px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+/**** Weather result style ****/
+.weather-result{
+  color: black;
+  background-color: rgba(238,163,108, 0.1);
+}
+.weather {
+  max-width: 80%;
+  font-size: 33px;
+  text-align: center;
+  margin: 30px auto;  
+  margin-top: 0;
+}
+.row{
+  display:flex;    
+}
+.column{
+  padding-bottom: 10px;
+}
+.left, .right {
+  width: 50%;
+}
+.right{
+  padding-top: 15px;
+  text-align: left;
+}
+.city-name h2{
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  padding-top:10px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #926746;
+}
+.city-temp h2 {
+  color: #926746;
+  padding-top: 0;
+}
+.city-temp span{
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}
+@media screen and (max-width: 360px){
+ h1{
+      padding-top: 20px;
+      font-size: 35px;
+  } 
+  p{
+      font-size: 18px;
+  }   
+  .left, .right {
+  width: 100%;
+}
+}
+.weather-result p{
+font-size: 17px;
+  color: #926746;
+  line-height: 1.5;
+}
+button:hover,
+a:hover{
+  cursor: pointer;
+}
+
+.container  { 
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.container .box {
+  padding-top: 1px;
+  width: 300px;
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .box .image {
+  height: 230px;
+  width: 300px;
+}
+.box h2 {
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.box h3 {
+  Font-Family: 'Monda', Sans-Serif;
+  color: white;
+  text-align: left;
+  font-size: small;
+  margin-top: 5px;
+}
+
